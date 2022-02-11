@@ -213,7 +213,9 @@ header {
 .menu-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 50px 20px;
+    text-align: center;
+    margin-bottom: 100px;
 }
 .menu-grid-cover {
     width: 100%;
@@ -255,11 +257,9 @@ header {
     background-size: 18px;
     background-repeat: no-repeat;
     background-position: 21% center;
-    margin-left: 115px;
     border: none;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-bottom: 29px;
     cursor: pointer;
 }
 .menu-grid-text {
@@ -270,12 +270,57 @@ header {
     text-align: center;
     padding-left: 21px;
 }
-.menu-title-extra {
-    color: #1B2A49;
-    font-weight: 700;
-    font-size: 44px;
+.footer {
+    background: #1E2F40;
+    color: #FFFFFF;
+    padding-top: 117px;
+    padding-bottom: 106px;
+    margin-top: 140px;
+}
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo {
+    width: 63px;
+    height: 56px;
+}
+.footer-item h2 {
+    font-size: 20px;
+    font-weight: 800;
     text-transform: uppercase;
-    margin: 0;
-    margin-bottom: 37px;
-    margin-top: 75px;
+    margin-bottom: 19px;
+    margin-top: 0;
+}
+.footer-item li {
+    color: #FAF9F9;
+    margin-bottom: 9px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.footer-item a {
+    color: #DEDEDE;
+    text-decoration: none;
+    font-weight: 400;
+}
+.footer-item span {
+    color: #DEDEDE;
+    display: block;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+.footer-tel ul {
+    font-weight: 800;
+    font-size: 20px;
+    color: #FBB731;
+    margin-top: 0;
+}
+.footer-tel li {
+    margin-bottom: 13px;
+}
+.footer-list {
+    padding-left: 0;
+    list-style-type: none;
 }
