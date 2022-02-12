@@ -18,6 +18,12 @@ header {
     padding-top: 26px;
     padding-bottom: 26px;
 }
+.header-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 68.5%;
+}
 .header-logo {
     display: block;
     background-image: url(../images/logo.svg);
@@ -31,6 +37,7 @@ header {
     display: flex;
     padding-left: 0;
     gap: 46px;
+    margin-top: 20px;
 }
 .header-nav a {
     font-weight: 600;
@@ -91,6 +98,7 @@ header {
     background-position: center center;
     padding: 141px 0;
     margin-bottom: 141px;
+    margin-top: -5px;
 }
 .breadcrumbs {
     padding-left: 0;
@@ -99,6 +107,7 @@ header {
     display: flex;
     justify-content: center;
     gap: 8px;
+    margin-left: 40px;
 }
 .breadcrumbs a {
     color: #DEDEDE;
@@ -124,9 +133,9 @@ header {
 .title {
     font-weight: 700;
     font-size: 79px;
-    margin-top: 16px;
-    margin-bottom: 20px;
-    margin-left: 0;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-left: 37px;
 }
 .description {
     color: #FAF9F9;
@@ -135,6 +144,7 @@ header {
     font-family: 'Open Sans', sans-serif;
     max-width: 320px;
     margin: 0 auto;
+    margin-left: 450px;
 }
 .banner-box {
     color: #FFFFFF;
@@ -175,12 +185,17 @@ header {
 .banner-link {
     text-decoration: none;
     background-color: #FBB731;
-    padding: 20px 25px;
+    padding: 19px 25px;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 14px;
     color: #1E2F40;
     border-radius: 5px;
+    border: 1px solid #FBB731;
+}
+.banner-link:hover {
+    background-color: transparent;
+    color: #FBB731;
 }
 .menu-header {
     display: flex;
@@ -194,7 +209,7 @@ header {
     text-transform: uppercase;
     margin: 0;
     margin-bottom: 37px;
-    margin-top: 102px;
+    margin-top: 103px;
 }
 .menu-select {
     border: 1px solid #DEDEDE;
@@ -262,6 +277,9 @@ header {
     padding-bottom: 10px;
     cursor: pointer;
 }
+.menu-grid-btn:hover {
+    background-color: #F37335;
+}
 .menu-grid-text {
     color: #1E2F40;
     font-weight: 700;
@@ -292,7 +310,7 @@ header {
     margin-bottom: 19px;
     margin-top: 0;
 }
-.footer-item li {
+.footer-list li {
     color: #FAF9F9;
     margin-bottom: 9px;
     font-family: 'Open Sans', sans-serif;
@@ -300,10 +318,13 @@ header {
     font-weight: 700;
     line-height: 24px;
 }
-.footer-item a {
+.footer-list a {
     color: #DEDEDE;
     text-decoration: none;
     font-weight: 400;
+}
+.footer-list a:hover {
+    color: #FBB731;
 }
 .footer-item span {
     color: #DEDEDE;
@@ -311,14 +332,19 @@ header {
     font-weight: 400;
     margin-bottom: 2px;
 }
-.footer-tel ul {
-    font-weight: 800;
-    font-size: 20px;
-    color: #FBB731;
-    margin-top: 0;
+.footer-list-tel {
+    margin-top: 0;    
 }
-.footer-tel li {
+.footer-list-tel li {
     margin-bottom: 13px;
+}
+.footer-list-tel a {
+    font-weight: 800;
+    font-size: 21px;
+    color: #FBB731;
+}
+.footer-list-tel a:hover {
+    color: #DEDEDE;
 }
 .footer-list {
     padding-left: 0;
