@@ -785,13 +785,58 @@ header {
             height: 37px;
             background-size: contain;
         }
+        .bg {
+            margin-bottom: 37px;
+        }
+        .banner-box {
+            margin-bottom: 37px;
+        }
+        .menu-header {
+            margin-bottom: 0px;
+        }
+        .menu-grid-title {
+            margin-top: -116px;
+        }
+        .menu-grid-cover img {
+            height: 169px;
+        }
+        .menu-grid-cover {
+            margin-bottom: 7px;
+        }
+        .menu-grid {
+            margin-top: -52px;
+        }
+        .menu-grid-price {
+            margin-bottom: 13px;
+        }
+        .menu-grid-item {
+            margin-bottom: -57px;
+        }
+        .menu-other {
+            margin-top: 95px;
+        }
+        .menu-other .menu-grid-cover, .menu-other .menu-grid-cover img {
+            width: 140px;
+            height: 254px;
+            margin-bottom: 127px;
+        }
+        .menu-other .menu-grid {
+            margin-top: 22px;
+            height: 331px;
+        }
+        .menu-other .menu-grid-item {
+            flex: 0 0 142px;
+        }
+        .footer {
+            margin-top: -22px;
+        }
+        .footer-main2 {
+            margin-top: 34px;
+        }
     }
     @media (max-width: 320px) {
         .banner-box {
             background-position: 25% center;
-        }
-        .menu-grid-cover img {
-            height: 169px;
         }
     }
 }
