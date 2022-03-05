@@ -778,6 +778,9 @@ header {
             font-size: 12px;
             padding-left: 15px;
         }
+        .menu-header {
+            margin-bottom: 0px;
+        }
     }
     @media (max-width: 360px) {
         .header-logo {
