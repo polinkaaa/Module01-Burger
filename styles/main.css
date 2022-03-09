@@ -596,6 +596,7 @@ header {
         font-size: 14px;
         line-height: 22.6px;
         margin-bottom: 31px;
+        max-width: 475px;
     }
     .content-link, .promo a {
         padding: 17px 40px;
@@ -603,7 +604,7 @@ header {
     }
     .main img {
         width: 592px;
-        right: 484px;
+        right: 84px;
         top: 15px;
     }
     .visual-bg {
@@ -708,7 +709,7 @@ header {
     }
     .main img {
         width: 490px;
-        right: 120px;
+        right: 101px;
         top: 121px;
     }
     .visual-bg {
@@ -717,11 +718,9 @@ header {
 }
 @media (max-width: 840px) {
     /* Style INDEX */
-    
-}
-@media (max-width: 848px) {
     .main img {
-        right: 285px;
+        width: 450px;
+        right: 151px;
     }
 }
 @media (max-width: 765px) {
@@ -793,10 +792,8 @@ header {
         font-size: 78px;
     }
     .main img {
-        /*width: 427px;*/
-        /*right: 174px;*/
-        width: 243px;
-        right: 504px;
+        width: 427px;
+        right: 174px;
         top: 144px;
     }
 
@@ -818,8 +815,12 @@ header {
         background-position: 17% center;
         padding: 35px 24px 54px;
     }
+    .menu-header {
+        margin-bottom: -45px;
+    }
     .menu-title {
         font-size: 27px;
+        margin-bottom: 16px;
     }
     .menu-select {
         max-width: 198px;
@@ -828,18 +829,18 @@ header {
         padding-left: 20px;
     }
     .menu-grid-cover {
-        margin-top: -29px;
+        margin-top: 33px;
     }
     .menu-grid-cover img {
         height: 291px;
     }
     .menu-grid-title {
         font-size: 15px;
-        margin-top: -42px;
+        margin-top: 24px;
         margin-bottom: 6px;
     }
     .menu-grid {
-        margin-top: -37px;
+        margin-top: 26px;
         margin-bottom: 37px;
     }
     .menu-grid-price {
@@ -849,13 +850,13 @@ header {
         min-width: 129px;
     }
     .menu-other {
-        height: 467px;
+        height: 490px;
     }
     .menu-other .menu-grid-cover,
     .menu-other .menu-grid-cover img {
         width: auto;
-        height: 291px; 
-        margin-bottom: 60px;
+        height: 258px;
+        margin-bottom: 29px;
     }
     .menu-other .menu-grid-item {
         flex: 0 0 232px;
@@ -863,17 +864,20 @@ header {
     .footer-main {
         text-align: left;
     }
+    .menu-grid-cover, .menu-grid-cover img {
+        height: 50vw;
+    }
 }
 @media (max-width: 486px) {
     .menu-grid-cover img {
         height: 257px;
     }
     .menu-grid-cover {
-        margin-top: -67px;
-        margin-bottom: -65px;
+        margin-top: 28px;
+        margin-bottom: 24px;
     }
     .menu-other {
-        height: 456px;
+        height: 505px;
     }
     .menu-other .menu-grid-cover, .menu-other .menu-grid-cover img {
         width: 215px;
@@ -886,21 +890,28 @@ header {
     }
 }
 @media (max-width: 430px) {
+    .menu-grid {
+        margin-top: 56px;
+    }
     .menu-grid-cover img {
         height: 223px;
     }
     .menu-grid-cover {
-        margin-top: -76px;
-        margin-bottom: -85px;
+        margin-top: 18px;
+        margin-bottom: 0px;
     }
     .menu-other .menu-grid-cover, .menu-other .menu-grid-cover img {
         width: 174px;
+        height: 212px;
+    }
+    .menu-other .menu-grid {
+        padding-bottom: 87px;
     }
     .menu-other .menu-grid-item {
         flex: 0 0 177px;
     }
     .footer {
-        margin-top: 41px;
+        margin-top: -15px;
     }
 }
 @media (max-width: 400px) {
@@ -912,6 +923,9 @@ header {
     }
     .menu-header {
         margin-bottom: 0px;
+    }
+    .menu-grid {
+        margin-top: 10px;
     }
 }
 @media (max-width: 360px) {
@@ -988,6 +1002,11 @@ header {
         font-size: 13px;
         line-height: 140%;
         margin-right: 174px;
+    }
+    .main img {
+        width: 290px;
+        right: 522px;
+        top: 330px;
     }
 }
 @media (max-width: 320px) {
