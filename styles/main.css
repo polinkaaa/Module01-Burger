@@ -567,6 +567,10 @@ header {
     .footer-list + .footer-list-tel {
         display: none;
     }
+    .promo {
+        padding-top: 93px;
+        padding-bottom: 28px
+    }
 }
 @media (min-width: 766px) {
     .header-burder {
@@ -613,6 +617,7 @@ header {
         padding-right: 133px;
         margin-right: 235px;
     }
+    
 }
 @media (max-width: 1000px) {
     .container {
@@ -653,7 +658,7 @@ header {
         overflow-y: hidden;
         padding-bottom: 50px;
         margin-top: -16px;
-        gap: 17px 3px;
+        gap: 17px 11px;
     }
     .menu-other .menu-grid-item {
         flex: 0 0 275px;
@@ -677,7 +682,7 @@ header {
     
     /* Style INDEX */
     .promo {
-        padding: 104px 15px 46px;
+        padding: 76px 15px 27px;
     }
     .promo-left {
         height: 300px;
@@ -722,6 +727,9 @@ header {
         width: 450px;
         right: 151px;
     }
+    .promo {
+        padding: 53px 15px 14px;
+    }
 }
 @media (max-width: 765px) {
     nav {
@@ -755,21 +763,21 @@ header {
     .cost {
         font-size: 58px;
     }
+    .promo {
+        padding: 55px 15px 9px;
+    }
 }
 @media (max-width: 700px) {
     .menu-grid-cover img {
         height: 335px;
     }
     .menu-grid {
-        gap: 17px 19px;
+        gap: 17px 13px;
         margin-top: -50px;
     }
     .menu-grid-title {
         margin-top: -23px;
         margin-bottom: 6px;
-    }
-    .footer {
-        margin-top: 73px;
     }
     .footer-tel {
         display: block;
@@ -796,7 +804,44 @@ header {
         right: 174px;
         top: 144px;
     }
-
+}
+@media (max-width: 660px){
+    .promo-left, .promo-right {
+        height: 246px;
+        width: 418px;
+        padding: 33px 31px;
+        margin: 0 auto 15px;
+    }
+    .free {
+        font-size: 41px;
+    }
+    .content-link, .promo a {
+        font-size: 12px;
+    }
+    .promo {
+        padding: 44px 15px 6px;
+        display: block;
+    }
+    .sale {
+        font-size: 14px;
+    }
+    .cost {
+        font-size: 53px;
+        margin-top: 5px;
+    }
+    .promo-description {
+        font-size: 15px;
+        margin-top: 0px;
+    }
+}
+@media (max-width: 590px) {
+    /* Style INDEX */
+    .main img {
+        width: 380px;
+        right: 271px;
+        top: 257px;
+    }
+    
 }
 @media (max-width: 565px) {
     .title {
@@ -867,8 +912,47 @@ header {
     .menu-grid-cover, .menu-grid-cover img {
         height: 50vw;
     }
+    /* Style INDEX */
+    .content {
+        flex: 0 0 435px;
+    }
+    .content-title {
+        font-size: 75px;
+        line-height: 92px;
+    }
+}
+@media (max-width: 510px){
+    /* Style INDEX */
+    .content {
+        flex: 0 0 405px;
+    }
+    .main img {
+        right: 315px;
+        top: 289px;
+    }
+    .content-title {
+        font-size: 70px;
+    }
+    .promo {
+        padding: 72px 15px 6px;
+    }
+    .promo-left, .promo-right {
+        width: 364px;
+    }
+    .sale {
+        font-size: 13px;
+    }
+    .cost {
+        font-size: 52px;
+    }
+    .promo-description {
+        font-size: 14px;
+    }
 }
 @media (max-width: 486px) {
+    .menu-grid {
+        gap: 27px 8px;
+    }
     .menu-grid-cover img {
         height: 257px;
     }
@@ -881,6 +965,9 @@ header {
     }
     .menu-other .menu-grid-cover, .menu-other .menu-grid-cover img {
         width: 215px;
+    }
+    .menu-other .menu-grid {
+        gap: 17px 5px;
     }
     .menu-other .menu-grid-item {
         flex: 0 0 218px;
@@ -910,8 +997,23 @@ header {
     .menu-other .menu-grid-item {
         flex: 0 0 177px;
     }
-    .footer {
-        margin-top: -15px;
+    .promo-left, .promo-right {
+        width: 414px;
+    }
+    .promo {
+        padding-left: 0;
+    }
+    .sale {
+        font-size: 14px;
+    }
+    .cost {
+        font-size: 53px;
+    }
+    .promo-description {
+        font-size: 15px;
+    }
+    .free {
+        font-size: 44px;
     }
 }
 @media (max-width: 400px) {
@@ -927,6 +1029,30 @@ header {
     .menu-grid {
         margin-top: 10px;
     }
+    /* Style INDEX */
+    .content-title {
+        font-size: 64px;
+        line-height: 85px;
+        margin-bottom: 13px;
+    }
+    .content-title span {
+        font-size: 16px;
+    }
+    .content-text {
+        font-size: 13px;
+    }
+    .sale {
+        font-size: 13px;
+    }
+    .cost {
+        font-size: 52px;
+    }
+    .promo-description {
+        font-size: 14px;
+    }
+    .free {
+        font-size: 42px;
+    }
 }
 @media (max-width: 360px) {
     .header-logo {
@@ -941,7 +1067,7 @@ header {
         margin-bottom: 37px;
     }
     .menu-header {
-        margin-bottom: 0px;
+        margin-bottom: 34px;
     }
     .menu-grid-title {
         margin-top: -116px;
@@ -950,7 +1076,7 @@ header {
         height: 169px;
     }
     .menu-grid-cover {
-        margin-bottom: 7px;
+        margin-bottom: 128px;
     }
     .menu-grid {
         margin-top: -52px;
@@ -959,25 +1085,23 @@ header {
         margin-bottom: 13px;
     }
     .menu-grid-item {
-        margin-bottom: -57px;
+        margin-bottom: -13px;
     }
     .menu-other {
-        margin-top: 95px;
+        margin-top: 43px;
+        height: 461px;
     }
     .menu-other .menu-grid-cover, .menu-other .menu-grid-cover img {
         width: 140px;
-        height: 254px;
+        height: 169px;
         margin-bottom: 127px;
     }
     .menu-other .menu-grid {
         margin-top: 22px;
-        height: 331px;
+        height: 354px;
     }
     .menu-other .menu-grid-item {
         flex: 0 0 142px;
-    }
-    .footer {
-        margin-top: -22px;
     }
     .footer-main2 {
         margin-top: 34px;
@@ -1004,13 +1128,41 @@ header {
         margin-right: 174px;
     }
     .main img {
-        width: 290px;
-        right: 522px;
-        top: 330px;
+        width: 273px;
+        right: 450px;
+        top: 233px;
+    }
+    .promo {
+        margin-top: -28px;
+    }
+    .promo-left, .promo-right {
+        width: 382px;
+    }
+    .promo-description {
+        font-size: 13px;
+        max-width: 250px;
+    }
+    .promo-left .promo-description {
+        max-width: 250px;
     }
 }
 @media (max-width: 320px) {
     .banner-box {
     background-position: 25% center;
+    }
+    .menu-grid-cover img {
+    width: 131px;
+    height: 155px;
+    }
+    /* Style INDEX */
+    .content-title {
+        font-size: 53px;
+        margin-bottom: 17px;
+    }
+    .content {
+        padding-bottom: 63px;
+    }
+    .promo-description {
+        font-size: 12px;
     }
 }
