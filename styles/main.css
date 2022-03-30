@@ -199,6 +199,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 33px;
 }
 .menu-title {
     color: #1B2A49;
@@ -206,8 +207,6 @@ header {
     font-size: 44px;
     text-transform: uppercase;
     margin: 0;
-    margin-bottom: 37px;
-    margin-top: 27px;
 }
 .menu-select {
     border: 1px solid #DEDEDE;
@@ -221,7 +220,6 @@ header {
     background-size: 12.79px 7.75px;
     background-repeat: no-repeat;
     background-position: 89% center;
-    margin-bottom: 9px;
 }
 .menu-grid {
     display: grid;
@@ -232,7 +230,7 @@ header {
 }
 .menu-grid-cover {
     width: 100%;
-    height: 430px;
+    height: 343px;
     position: relative;
     overflow: hidden;
 }
@@ -274,6 +272,7 @@ header {
     padding-top: 10px;
     padding-bottom: 10px;
     cursor: pointer;
+    margin-bottom: 24px;
 }
 .menu-grid-btn:hover {
     background-color: #F37335;
@@ -291,7 +290,6 @@ header {
     color: #FFFFFF;
     padding-top: 117px;
     padding-bottom: 106px;
-    margin-top: 140px;
 }
 .footer-box {
     display: flex;
@@ -351,7 +349,6 @@ header {
 .footer-main {
     display: none;
 }
-
 .button-up {
     background-color: #FBB731;
     color: #1E2F40;
@@ -645,32 +642,26 @@ header {
     .menu-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 50px 15px;
-        margin-bottom: 65px;
+        margin-bottom: 35px;
     }
     .menu-other {
         overflow: hidden;
-        height: 583px;
+        height: 669px;
     }
     .menu-other .menu-grid {
         display: flex;
         width: auto;
         overflow-x: scroll;
         overflow-y: hidden;
-        padding-bottom: 50px;
-        margin-top: -16px;
+        margin-top: 21px;
         gap: 17px 11px;
+        padding-bottom: 95px;
     }
     .menu-other .menu-grid-item {
         flex: 0 0 275px;
     }
-    .menu-other .menu-grid-cover,
-    .menu-other .menu-grid-cover img {
-        height: 320px; 
-        margin-bottom: 36px;
-    }
     .footer {
         padding-top: 62px;
-        margin-top: 96px;
         padding-bottom: 59px;
     }
     .footer-tel {
@@ -768,16 +759,8 @@ header {
     }
 }
 @media (max-width: 700px) {
-    .menu-grid-cover img {
-        height: 335px;
-    }
     .menu-grid {
         gap: 17px 13px;
-        margin-top: -50px;
-    }
-    .menu-grid-title {
-        margin-top: -23px;
-        margin-bottom: 6px;
     }
     .footer-tel {
         display: block;
@@ -860,12 +843,8 @@ header {
         background-position: 17% center;
         padding: 35px 24px 54px;
     }
-    .menu-header {
-        margin-bottom: -45px;
-    }
     .menu-title {
         font-size: 27px;
-        margin-bottom: 16px;
     }
     .menu-select {
         max-width: 198px;
@@ -873,21 +852,14 @@ header {
         font-size: 13px;
         padding-left: 20px;
     }
-    .menu-grid-cover {
-        margin-top: 33px;
-    }
-    .menu-grid-cover img {
-        height: 291px;
-    }
     .menu-grid-title {
         font-size: 15px;
-        margin-top: 24px;
-        margin-bottom: 6px;
     }
+    /*
     .menu-grid {
         margin-top: 26px;
         margin-bottom: 37px;
-    }
+    }*/
     .menu-grid-price {
         font-size: 16px;
     }
@@ -896,12 +868,6 @@ header {
     }
     .menu-other {
         height: 490px;
-    }
-    .menu-other .menu-grid-cover,
-    .menu-other .menu-grid-cover img {
-        width: auto;
-        height: 258px;
-        margin-bottom: 29px;
     }
     .menu-other .menu-grid-item {
         flex: 0 0 232px;
@@ -950,21 +916,8 @@ header {
     }
 }
 @media (max-width: 486px) {
-    .menu-grid {
-        gap: 27px 8px;
-    }
-    .menu-grid-cover img {
-        height: 257px;
-    }
-    .menu-grid-cover {
-        margin-top: 28px;
-        margin-bottom: 24px;
-    }
     .menu-other {
-        height: 505px;
-    }
-    .menu-other .menu-grid-cover, .menu-other .menu-grid-cover img {
-        width: 215px;
+        height: 418px;
     }
     .menu-other .menu-grid {
         gap: 17px 5px;
@@ -977,20 +930,6 @@ header {
     }
 }
 @media (max-width: 430px) {
-    .menu-grid {
-        margin-top: 56px;
-    }
-    .menu-grid-cover img {
-        height: 223px;
-    }
-    .menu-grid-cover {
-        margin-top: 18px;
-        margin-bottom: 0px;
-    }
-    .menu-other .menu-grid-cover, .menu-other .menu-grid-cover img {
-        width: 174px;
-        height: 212px;
-    }
     .menu-other .menu-grid {
         padding-bottom: 87px;
     }
@@ -1022,12 +961,6 @@ header {
         height: 41px;
         font-size: 12px;
         padding-left: 15px;
-    }
-    .menu-header {
-        margin-bottom: 0px;
-    }
-    .menu-grid {
-        margin-top: 10px;
     }
     /* Style INDEX */
     .content-title {
@@ -1066,35 +999,16 @@ header {
     .banner-box {
         margin-bottom: 37px;
     }
-    .menu-header {
-        margin-bottom: 34px;
-    }
-    .menu-grid-title {
-        margin-top: -116px;
-    }
-    .menu-grid-cover img {
-        height: 169px;
-    }
-    .menu-grid-cover {
-        margin-bottom: 128px;
-    }
-    .menu-grid {
-        margin-top: -52px;
-    }
     .menu-grid-price {
         margin-bottom: 13px;
     }
-    .menu-grid-item {
-        margin-bottom: -13px;
-    }
     .menu-other {
         margin-top: 43px;
-        height: 461px;
+        height: 370px;
     }
     .menu-other .menu-grid-cover, .menu-other .menu-grid-cover img {
         width: 140px;
         height: 169px;
-        margin-bottom: 127px;
     }
     .menu-other .menu-grid {
         margin-top: 22px;
